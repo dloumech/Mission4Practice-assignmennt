@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <!--link css and such-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="viewz" asp-action="Index">Home</a>
+        <a asp-controller="viewz" asp-action="gradeCalculator">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    
+    <script src="~/lib/jQuery/jquery-3.6.3.min.js"></script>
+    <script src="~/js/gradeCalculator.js"></script>
+</body>
+</html>

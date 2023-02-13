@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
-    <None Include="wwwroot\js\FanMail.js" />
+    <None Include="wwwroot\js\gradeCalculator.js" />
   </ItemGroup>
 
 </Project>
